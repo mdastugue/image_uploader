@@ -1,0 +1,48 @@
+@import '../node_modules/ui-library_mercadolibre/src/styles/bundles/main/main__large';
+.ui-dropdown__link{
+    color: #3483fa !important;
+}
+.main-content{
+    padding-top : 30px;
+    width: 60%;
+    margin: auto;
+    float:right;
+    height: 970px;
+}
+
+.dropzone{
+    &--title{
+        padding:20px;
+        font-size: 16px;
+        cursor : pointer;
+    }
+
+    &--imageBox{
+        padding-top:20px;
+        div{
+            padding-top:20px;
+        }
+    }
+}
+
+.ui-dropdown__content{
+    display: none;
+}
+
+.ui-dropdown{
+    .ui-icon--chevron{
+        margin-left:10px;
+    }
+}
+
+.dropdown-form{
+    padding-top: 20px;
+    span{
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+.button__use{
+    padding-top:20px;
+}

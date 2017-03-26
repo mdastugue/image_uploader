@@ -1,0 +1,37 @@
+/* Header component
+   -------------------------------------------- */
+html,body{
+    font-family: 'Proxima Nova';
+}
+.header {
+    background-color: #ffdb15;
+    height: 56px;
+    font-size: 30px;
+    color: #333;
+    font-weight: 300;
+    position: relative;
+}
+
+.header p {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    margin-top: -13px;
+    font-size: 18px;
+    font-weight: 300;
+   background: url('./images/logo.png') no-repeat;
+   min-height: 28px;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+
+.logo a {
+    font-size: inherit !important;
+    color: inherit !important;
+    line-height: inherit !important;
+}
