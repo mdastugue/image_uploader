@@ -7,9 +7,9 @@ import './dropdown';
 import Dropdown from './components/Dropdown';
 
 let departments = [
-    {title:'crm', value:'crm',type:'department'},
-    {title:'ui', value:'ui',type:'department'},
-    {title:'mediations',value:'mediations',type:'department'}
+    {title:'prueba', value:'prueba1',type:'department'},
+    {title:'prueba2', value:'prueba2',type:'department'},
+    {title:'prueba3',value:'prueba3',type:'department'}
 ],
 projects = [
   {title:'Prueba' ,value:'prueba', container:'asdasd',password:'asdasd',type:'project'},
